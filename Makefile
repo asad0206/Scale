@@ -9,3 +9,6 @@ b: file2.cpp
 
 c: file3.cpp
 	g++ -I src/include -L src/lib -m64 -o file3 file3.cpp -lmingw32 -lSDL2main -lSDL2
+
+d: file4.cpp
+	g++ -I src/include -L src/lib -Wall -m64 -o file4 file4.cpp -lmingw32 -lSDL2main -lSDL2

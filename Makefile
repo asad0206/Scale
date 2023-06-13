@@ -13,5 +13,8 @@ c: file3.cpp
 d: file4.cpp
 	g++ -I src/include -L src/lib -Wall -m64 -o file4 file4.cpp -lmingw32 -lSDL2main -lSDL2
 
-e: file4.cpp
+e: file5.cpp
 	g++ -I src/include -L src/lib -Wall -m64 -o file5 file5.cpp -lmingw32 -lSDL2main -lSDL2
+
+f: file6.cpp
+	g++ -I src/include -L src/lib -Wall -m64 -o file6 file6.cpp -lmingw32 -lSDL2main -lSDL2 -lSDL2_image

@@ -21,3 +21,6 @@ f: file6.cpp
 
 g: file7.cpp
 	g++ -I src/include -L src/lib -Wall -m64 -o file7 file7.cpp -lmingw32 -lSDL2main -lSDL2 -lSDL2_image
+
+h: file8.cpp
+	g++ -I src/include -L src/lib -Wall -m64 -o file8 file8.cpp -lmingw32 -lSDL2main -lSDL2 -lSDL2_image

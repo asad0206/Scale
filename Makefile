@@ -33,3 +33,6 @@ j: file10.cpp
 
 k: file11.cpp
 	g++ -I src/include -L src/lib -Wall -m64 -o file11 file11.cpp -lmingw32 -lSDL2main -lSDL2 -lSDL2_image
+
+l: file12.cpp
+	g++ -I src/include -L src/lib -Wall -m64 -o file12 file12.cpp -lmingw32 -lSDL2main -lSDL2 -lSDL2_image

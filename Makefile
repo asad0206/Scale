@@ -51,3 +51,6 @@ p: file16.cpp
 
 q: file17.cpp
 	g++ -I src/include -L src/lib -Wall -m64 -o file17 file17.cpp -lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_ttf
+
+r: file18.cpp
+	g++ -I src/include -L src/lib -Wall -m64 -o file18 file18.cpp -lmingw32 -lSDL2main -lSDL2 -lSDL2_image

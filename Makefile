@@ -45,3 +45,6 @@ n: file14.cpp
 
 o: file15.cpp
 	g++ -I src/include -L src/lib -Wall -m64 -o file15 file15.cpp -lmingw32 -lSDL2main -lSDL2 -lSDL2_image
+
+p: file15.cpp
+	g++ -I src/include -L src/lib -Wall -m64 -o file16 file16.cpp -lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_ttf

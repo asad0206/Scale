@@ -54,3 +54,6 @@ q: file17.cpp
 
 r: file18.cpp
 	g++ -I src/include -L src/lib -Wall -m64 -o file18 file18.cpp -lmingw32 -lSDL2main -lSDL2 -lSDL2_image
+
+s: file19.cpp
+	g++ -I src/include -L src/lib -Wall -m64 -o file19 file19.cpp -lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_mixer
